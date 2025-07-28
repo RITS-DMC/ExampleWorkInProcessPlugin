@@ -3,7 +3,7 @@
 2. Update Namespace (Optional):
    Change the namespace if needed (e.g: rits.custom.pod.examples.custompodpluginexamples).
  
-3. Inside the webapp folder, the following three plugins are available:
+3. Inside the webapp folder, the following two plugins are available:
  
         custompodpluginexamples – Main plugin that acts as a container for the other two.
  
