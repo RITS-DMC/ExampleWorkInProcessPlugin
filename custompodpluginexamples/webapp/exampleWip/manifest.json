@@ -1,0 +1,33 @@
+{
+    "sap.app": {
+        "id": "rits.custom.pod.examples.custompodpluginexamples.exampleWip",
+        "type": "component",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "embeddedBy": "../",
+        "title": "{{title}}",
+        "description": "{{plugin.description}}"
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "rits.custom.pod.examples.custompodpluginexamples.exampleWip.view.PluginView",
+            "type": "XML",
+            "id": "exampleWipView"
+        },
+        "resources": {
+            "css": [{
+                "uri": "css/style.css"
+            }]
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "rits.custom.pod.examples.custompodpluginexamples.exampleWip.i18n.i18n"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"components": [
+		{
+			"id": "custompodpluginexamples",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "rits.custom.pod.examples.custompodpluginexamples.custompodpluginexamples",
+			"propertyEditor": "rits.custom.pod.examples.custompodpluginexamples.custompodpluginexamples.builder.PropertyEditor",
+			"i18n": "rits.custom.pod.examples.custompodpluginexamples.custompodpluginexamples.i18n.i18n",
+            "productionProcessEnabled": true,
+           "productionProcessTitle": "custompodpluginexamples",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		},
+		{
+			"id": "exampleWip",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": true,
+			"name": "rits.custom.pod.examples.custompodpluginexamples.exampleWip",
+			"propertyEditor": "rits.custom.pod.examples.custompodpluginexamples.exampleWip.builder.PropertyEditor",
+			"i18n": "rits.custom.pod.examples.custompodpluginexamples.exampleWip.i18n.i18n",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		}
+	]
+}

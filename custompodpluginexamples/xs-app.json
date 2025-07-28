@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/custompodpluginexamples/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/custompodpluginexamples/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
